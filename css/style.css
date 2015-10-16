@@ -1,20 +1,27 @@
 #container {
-	width: 960px;
+	width: 100%;
 }
 
 body {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 18px;
+	line-height: 21px;
 	color: rgb(58, 60, 63);
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(245, 245, 100);
 }
 
 h1 {
 	text-indent: -9999px;
 }
 
-nav {
+header{
+	background-color: rgba(245, 245, 245, .5);
 	width: 100%;
+	padding: 2%;
+}
+
+.mainMenu {
+	text-align: right;
 }
 
 .mainMenu li {
@@ -22,6 +29,7 @@ nav {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: .95rem;
+	margin: 0% .5%;
 }
 
 .mainMenu img {
@@ -53,3 +61,34 @@ nav {
 .mainMenu a:hover{
 
 }
+
+.aboutPage {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	width: 80%;
+	margin: 0% auto;
+	font-style: italic;
+	font-weight: 500;
+}
+.aboutPage h2{
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 5% 5% 5% 0%;
+	font-style: normal;
+	
+}
+
+.two-col {
+	width: 80%;
+	margin: 5% auto;
+	font-size: 1.1rem;
+	line-height: 1.4rem; 
+       -moz-column-count: 2;
+       -moz-column-gap: 15px;
+       -webkit-column-count: 2;
+       -webkit-column-gap : 15px;
+     
+
+
+
