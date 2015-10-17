@@ -17,7 +17,8 @@ h1 {
 header{
 	background-color: rgba(245, 245, 245, .5);
 	width: 100%;
-	padding: 2%;
+	padding: 0% auto;
+	margin: auto 0%;
 }
 
 .mainMenu {
@@ -30,6 +31,7 @@ header{
 	font-weight: 600;
 	font-size: .95rem;
 	margin: 0% .5%;
+	text-align: right;
 }
 
 .mainMenu img {
