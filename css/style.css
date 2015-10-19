@@ -7,7 +7,7 @@ body {
 	font-size: 18px;
 	line-height: 21px;
 	color: rgb(58, 60, 63);
-	background-color: rgb(245, 245, 100);
+	background-color: white;
 }
 
 h1 {
@@ -15,14 +15,21 @@ h1 {
 }
 
 header{
-	background-color: rgba(245, 245, 245, .5);
+	background-color: white;
 	width: 100%;
-	padding: 0% auto;
-	margin: auto 0%;
+}
+
+.menuFixed{
+	background-color: rgba(245, 245, 245, .9);
+	position: fixed;
+	top:0;
+	left:0;
 }
 
 .mainMenu {
 	text-align: right;
+	padding: 0% 3% 3% 0%;
+	margin-right: 6%;
 }
 
 .mainMenu li {
@@ -64,6 +71,28 @@ header{
 
 }
 
+.grid_gallery {
+	width: 100%;
+	margin: 0% 0% 0% 3%;
+}
+
+.gallery {
+	margin: 5%;
+}
+
+.grid_gallery li{
+	display: inline-block;
+	width: 30%;
+}
+
+.work {
+	width: 100%;
+}
+
+.workTrans{
+	opacity: .6;
+}
+
 .aboutPage {
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -90,7 +119,15 @@ header{
        -moz-column-gap: 15px;
        -webkit-column-count: 2;
        -webkit-column-gap : 15px;
+}
      
+footer p {
+	margin: 3%;
+	font-size: .7rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-left: 8%;
+}
 
 
 
