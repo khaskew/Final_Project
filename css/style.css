@@ -90,7 +90,8 @@ header{
 }
 
 .workTrans{
-	opacity: .6;
+	background-color: rgba(0, 34, 65, .6);
+	z-index: 100;
 }
 
 .aboutPage {
