@@ -20,7 +20,7 @@ header{
 }
 
 .menuFixed{
-	background-color: rgba(245, 245, 245, .9);
+	background-color: rgba(255, 255, 255, .95);
 	position: fixed;
 	top:0;
 	left:0;
@@ -35,7 +35,7 @@ header{
 .mainMenu li {
 	display: inline-block;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: .95rem;
 	margin: 0% .5%;
 	text-align: right;
@@ -101,7 +101,7 @@ header{
 	font-style: italic;
 	font-weight: 500;
 }
-.aboutPage h2{
+h2 {
 	font-size: 2rem;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -113,20 +113,45 @@ header{
 .two-col {
 	width: 80%;
 	margin: 5% auto;
-	font-size: 1.1rem;
+	font-size: .9rem;
 	line-height: 1.4rem; 
        -moz-column-count: 2;
        -moz-column-gap: 15px;
        -webkit-column-count: 2;
        -webkit-column-gap : 15px;
 }
+
+.resume {
+	width: 80%;
+	margin: 0 auto;
+	font-size: .8rem;
+}
+
+.resume li {
+	text-indent: 1rem;
+}
+
+.portfolio_page {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.portfolio_page p {
+	font-size: .9rem;
+	width: 60%;
+}
+
+.portfolio_page img {
+	width: 100%;
+	margin-top: 4%;r
+}
      
 footer p {
-	margin: 3%;
+	width: 80%;
 	font-size: .7rem;
 	font-weight: 400;
 	text-transform: uppercase;
-	margin-left: 8%;
+	margin: 3% auto;
 }
 
 
