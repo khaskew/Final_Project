@@ -35,7 +35,7 @@ header{
 .mainMenu li {
 	display: inline-block;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: .95rem;
 	margin: 0% .5%;
 	text-align: right;
@@ -56,16 +56,11 @@ header{
 
 .grid_gallery {
 	width: 90%;
-	margin: 0% auto;
-}
-
-.gallery {
-	margin: 0% 5% 2% 10%;
+	margin: 0% 0% 0% 10%;
 }
 
 .grid_gallery li{
 	display: inline-block;
-	width: 30%;
 }
 
 .work {
@@ -77,19 +72,25 @@ header{
 }
 
 .button-group{
-	width: 100%;
-	/*margin: 3% 5% 0% %;*/
+	width: 90%;
+	margin: 0% 0% 0% 32%;
 }
 
 .button{
-	width: 30%;
+	width: 12%;
 	border: none;
-	margin: 2% auto;
+	border-bottom: 3px solid rgb(58, 60, 63);
+	margin: 3% .5%;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
-	font: 1.1rem;
+	font-size: .8rem;
 	text-transform: uppercase;
 	padding: .75%;
+	background-color: white;
+}
+
+:focus {
+	outline: none;
 }
 
 .aboutPage {
@@ -118,6 +119,17 @@ h2 {
        -moz-column-count: 2;
        -moz-column-gap: 15px;
        -webkit-column-count: 2;
+       -webkit-column-gap : 15px;
+}
+
+.three-col {
+	width: 80%;
+	margin: 5% auto;
+	font-size: .9rem;
+	line-height: 1.4rem; 
+       -moz-column-count: 3;
+       -moz-column-gap: 15px;
+       -webkit-column-count: 3;
        -webkit-column-gap : 15px;
 }
 
