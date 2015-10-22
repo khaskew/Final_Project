@@ -179,7 +179,7 @@ footer p {
 
 	.menuFixed{
 		background-color: rgba(255, 255, 255, .95);
-		position: fixed;
+		position: static;
 		top: 0;
 		left: 0;
 		z-index: 100;
@@ -313,6 +313,13 @@ footer p {
 		text-transform: uppercase;
 		margin: 3% auto;
 	}
+}
+
+@media only screen and (max-width: 480px) {
+	.work {
+		width: 90%;
+	}
+}
 
 
 
