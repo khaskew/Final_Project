@@ -73,7 +73,7 @@ header{
 
 .button-group{
 	width: 90%;
-	margin: 0% 0% 0% 32%;
+	margin: 0% 0% 0% 26.5%;
 }
 
 .button{
@@ -303,6 +303,11 @@ footer p {
 
 	.portfolio_page img {
 		width: 100%;
+		margin-top: 4%;
+	}
+
+	.portfolio_page img .cards {
+		width: 80%;
 		margin-top: 4%;
 	}
 
