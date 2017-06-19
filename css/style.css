@@ -100,6 +100,7 @@ header{
 	margin: 0% auto;
 	font-style: italic;
 	font-weight: 500;
+
 }
 
 h2 {
@@ -115,11 +116,13 @@ h2 {
 	width: 80%;
 	margin: 5% auto;
 	font-size: .9rem;
+	text-align: justify;
 	line-height: 1.4rem; 
        -moz-column-count: 2;
        -moz-column-gap: 15px;
        -webkit-column-count: 2;
        -webkit-column-gap : 15px;
+
 }
 
 .resume {
