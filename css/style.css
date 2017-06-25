@@ -107,10 +107,12 @@ h2 {
 	font-size: 2rem;
 	text-transform: uppercase;
 	font-weight: 600;
+	line-height: 2rem;
 	padding: 5% 5% 5% 0%;
 	font-style: normal;
 	
 }
+
 
 .two-col {
 	width: 80%;
@@ -148,6 +150,14 @@ h2 {
 .portfolio_page img {
 	width: 100%;
 	margin-top: 4%;
+}
+
+.saisicons li {
+	display: inline;
+}
+
+.saisicons img {
+	width: 20%;
 }
 
 footer p {
@@ -273,7 +283,7 @@ footer p {
 		font-style: normal;	
 	}
 
-	.two-col {
+	.two-col {s
 		width: 80%;
 		margin: 5% auto;
 		font-size: .9rem;
